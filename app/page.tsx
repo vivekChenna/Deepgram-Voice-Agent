@@ -163,7 +163,7 @@ export default function Home() {
           className={`absolute md:hidden bottom-0 left-0 pb-[16px] pl-[16px]`}
           collapsible
         />
-        <MobileMenu className="fixed md:hidden bottom-4 right-4 text-gray-200" />
+        {/* <MobileMenu className="fixed md:hidden bottom-4 right-4 text-gray-200" /> */}
       </Suspense>
     </main>
   );
