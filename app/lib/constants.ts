@@ -113,10 +113,10 @@ export const availableVoices: NonEmptyArray<Voice> = [
 export const defaultVoice: Voice = availableVoices[0];
 
 export const sharedOpenGraphMetadata = {
-  title: "Voice Agent | Deepgram",
+  title: "Andaihub Voice Agent",
   type: "website",
   url: "/",
-  description: "Meet Deepgram's Voice Agent API",
+  description: "Andaihub Voice Agent",
 };
 
 export const latencyMeasurementQueryParam = "latency-measurement";

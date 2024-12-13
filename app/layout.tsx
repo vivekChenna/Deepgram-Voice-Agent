@@ -29,13 +29,13 @@ const favorit = localFont({
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_PATH || "http://localhost:3000"),
   title: "Andaihub Voice Agent",
-  description: "Meet Deepgram's Voice Agent API",
+  description: "Andaihub Voice Agent",
   openGraph: sharedOpenGraphMetadata,
-  twitter: {
-    card: "summary_large_image",
-    site: "@DeepgramAI",
-    creator: "@DeepgramAI",
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   site: "@DeepgramAI",
+  //   creator: "@DeepgramAI",
+  // },
 };
 
 const fonts = [inter, fira, favorit].map((font) => font.variable).join(" ");
