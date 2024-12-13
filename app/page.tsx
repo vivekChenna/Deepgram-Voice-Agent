@@ -14,11 +14,11 @@ import PromptSuggestions from "./components/PromptSuggestions";
 import Conversation from "./components/Conversation";
 import VoiceSelector from "./components/VoiceSelector/VoiceSelector";
 import { isMobile } from "react-device-detect";
-import PopupButton from "./components/PopupButton";
+// import PopupButton from "./components/PopupButton";
 import MobileMenu from "./components/MobileMenu";
 import Latency from "./components/Latency";
-import { PencilIcon } from "./components/icons/PencilIcon";
-import InstructionInput from "./components/InstructionInput";
+// import { PencilIcon } from "./components/icons/PencilIcon";
+// import InstructionInput from "./components/InstructionInput";
 import { TerminalIcon } from "./components/icons/TerminalIcon";
 import Header from "./components/Header";
 import { useStsQueryParams } from "./hooks/UseStsQueryParams";
@@ -26,17 +26,17 @@ import { useDeepgram } from "./context/DeepgramContextProvider";
 import BehindTheScenes from "./components/BehindTheScenes";
 
 const DesktopMenuItems = () => {
-  const { instructions } = useStsQueryParams();
+  // const { instructions } = useStsQueryParams();
   return (
     <>
-      <PopupButton
+      {/* <PopupButton
         buttonIcon={<PencilIcon />}
         buttonText={
           <span>Prompt {instructions && <span className="text-green-spring">*</span>}</span>
         }
         popupContent={<InstructionInput className="w-96" focusOnMount />}
         tooltipText={instructions ? "Using your custom prompt. Click to edit." : null}
-      />
+      /> */}
     </>
   );
 };
