@@ -436,7 +436,7 @@ export const App = ({
             </button>
           )}
           {socketState === 0 && (
-            <div className="text-base text-gray-25 text-center w-full">Loading Deepgram...</div>
+            <div className="text-base text-gray-25 text-center w-full">Loading...</div>
           )}
           {socketState > 0 && status === VoiceBotStatus.SLEEPING && (
             <div className="text-xl flex flex-col items-center justify-center mt-4 mb-10 md:mt-4 md:mb-10">
